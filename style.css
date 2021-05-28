@@ -28,35 +28,45 @@ img{
 .text{
     display: flex;
     text-align: center;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 40px;
+    color :hsl(234, 12%, 34%);
+    
     
 }
 .sub-text{
+    color: hsl(229, 6%, 66%);
     margin-top: 20px;
 }
+
 .image{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     height: 120px;
-
     
 }
 .card{
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     height: 100%;
     margin-top: 20px;
-    border-top: 5px solid hsl(0, 78%, 62%);
+    border-top: 5px;
     border-radius: 5px;
-    
-
-
+    box-shadow: 0px 10px 15px 0px hsla(233, 7%, 78%, 0.912);
 }
 .card-title{
     font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins:wght@400', sans-serif;
     margin-bottom: 10px;
+    color :hsl(234, 12%, 34%);
+    
 }
+.card-subTitle{
+    color: hsl(229, 6%, 66%);
+}
+
 .card-text{
     font-size: 13px;
     position: relative;
@@ -64,6 +74,51 @@ img{
     left: 30px;
     right: 0;
     width: 90%;
+}
+.supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.teamBuilder{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.calculator{
+    border-top:5px solid hsl(212, 86%, 64%);
+}
+@media screen and (min-width:1000px) {
 
+    main{
+        display: flex;
+        justify-content: center;
+    }
+   .wrapper-card{
+        width: 100%;
+        height: 200px;
+    }
+    .card{
+        display: flex;
+        margin: 0;
+        position:absolute;
+        width: 300px;
+        height: 200px;
+    }
+    .supervisor{
+        left: 0;
+    }
+    .teamBuilder{
+        top: 50%;
+        left: 30%;
+        
+    }
+    .karma{
+        bottom: 0;
+    }
+    .calculator{
+        right: 0;
+    }
+     
+       
 
 }
