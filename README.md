@@ -61,7 +61,7 @@ Modelos de layout utilizados:
   
 # Meu aprendizado neste projeto
   
-  Nesta solução foquei na utilização do Grid Layout como modelo no meu css, com ele aprendi a usar o grid-template-columns ,grid-template-rows e o grid-template-areas que são bem dinamicos na construção do layout e bem simples de utilizar. Mas também não pude deixar de utilizar o flexBox em conjunto para melhor performace do meu código. Também pude aprender o conceito de " mobile First " que mostra como é bem mais fácil e prático começar a estilização pelo mobile ao invés de começar pelo desktop.
+  Nesta solução foquei na utilização do Grid Layout como modelo no meu css, com ele aprendi a usar o grid-template-columns ,grid-template-rows e o grid-template-areas que são bem dinâmicos na construção do layout e bem simples de utilizar. Mas também não pude deixar de utilizar o flexBox em conjunto para melhor performace do meu código. Também pude aprender o conceito de " mobile First " que mostra como é bem mais fácil e prático começar a estilização pelo mobile ao invés de começar pelo desktop.
   
 # Autor
 
