@@ -1,4 +1,4 @@
-# 3-column preview card component
+# FourCardFeatureSectionMaster
 https://fourcard01.netlify.app/
 
 ## Sobre o projeto
