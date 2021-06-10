@@ -1,4 +1,4 @@
-# FourCardFeatureSectionMaster
+# Four Card Feature Section Master
 https://fourcard01.netlify.app/
 
 ## Sobre o projeto
